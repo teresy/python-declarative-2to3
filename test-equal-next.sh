@@ -8,7 +8,7 @@ cd ..
 
 cd before-refactor-teresy-workspace
 git checkout -- .
-~/rooibos-future/main -verbose -match-timeout 1 -d $(pwd) -f .py -templates `echo ../templates/next/* | tr ' ' ,`
+time ~/rooibos-future/main -verbose -match-timeout 1 -d $(pwd) -f .py -templates `echo ../templates/next/* | tr ' ' ,`
 git checkout -- .
 cd ..
 
