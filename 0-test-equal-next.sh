@@ -14,10 +14,10 @@ EQUAL=`./diff-teresy-vs-2to3.sh`
 
 echo "Diffs" ${EQUAL}
 
-cd before-refactor-2to3-workspace
+cd before-refactor-2to3-workspace-next
 git checkout -- .
 cd ..
 
-cd before-refactor-teresy-workspace
+cd before-refactor-teresy-workspace-next
 git checkout -- .
 cd ..
