@@ -10,7 +10,7 @@ git checkout -- .
 time ~/rooibos-future/main -verbose -match-timeout 1 -d $(pwd) -f .py -templates `echo ../templates/next/* | tr ' ' ,`
 cd ..
 
-EQUAL=`./diff-teresy-vs-2to3.sh`
+EQUAL=`./diff-teresy-vs-2to3-next.sh`
 
 echo "Diffs" ${EQUAL}
 
